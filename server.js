@@ -31,5 +31,5 @@ app.use("/", (req, res, next) =>
 app.use(notFound);
 app.use(errorHandler);
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 4001;
 app.listen(PORT, () => serverInfo("SERVER", `server running on ${PORT}`));
