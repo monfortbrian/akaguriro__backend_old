@@ -26,7 +26,7 @@ app.use("/api/v1/orders", orderRouter);
 
 app.use("/api/v1/users", userRoutes);
 app.use("/", (req, res, next) =>
-  res.status(200).json({ message: "welcome  to our api" })
+  res.status(200).json({ message: "welcome  to our Akaguriro API" })
 );
 app.use(notFound);
 app.use(errorHandler);
